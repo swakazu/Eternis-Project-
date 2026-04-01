@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternis Project - Garry's Mod Форум</title>
+    <meta name="description" content="Официальный форум сообщества Eternis Project для Garry's Mod">
+    <meta name="keywords" content="garry's mod, gmod, форум, сервер, roleplay, eternis">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo_2.png" alt="Eternis Project Logo" class="logo-img" id="logo-image">
+                <div class="logo-text">
+                    <span class="logo-main">ETERNIS</span>
+                    <span class="logo-sub">PROJECT</span>
+                </div>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#" class="nav-link active">Главная</a></li>
+                <li><a href="#forums" class="nav-link">Форумы</a></li>
+                <li><a href="#servers" class="nav-link">Серверы</a></li>
+                <li><a href="#team" class="nav-link">Команда</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#" class="nav-link">Правила</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <div class="server-status" id="server-status">
+                    <span class="status-indicator online"></span>
+                    <span class="status-text">Онлайн</span>
+                    <span class="player-count">24/64</span>
+                </div>
+                <a href="#" class="btn btn-primary" id="login-btn">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Войти</span>
+                </a>
+                <button class="btn btn-icon mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-check-circle"></i>
+                <span>Официальный форум сообщества</span>
+            </div>
+            <h1 class="hero-title">Добро пожаловать в Eternis Project</h1>
+            <p class="hero-subtitle">
+                Лучшее RP-сообщество Garry's Mod. Присоединяйтесь к тысячам игроков 
+                в уникальном игровом мире с глубокой ролевой системой.
+            </p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">
+                    <i class="fas fa-play"></i>
+                    Начать играть
+                </a>
+                <a href="#" class="btn btn-secondary">
+                    <i class="fab fa-discord"></i>
+                    Discord сервер
+                </a>
+                <a href="#forums" class="btn btn-secondary">
+                    <i class="fas fa-comments"></i>
+                    Форум
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container main-content">
+        <section class="announcements">
+            <div class="section-header">
+                <h2><i class="fas fa-bullhorn"></i> Новости и объявления</h2>
+                <a href="#" class="view-all-link">
+                    Все новости <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="announcements-grid">
+                <div class="announcement-card featured animate-in">
+                    <div class="announcement-meta">
+                        <span class="announcement-date">
+                            <i class="far fa-calendar"></i>
+                            15 Января 2025
+                        </span>
+                        <span class="announcement-tag tag-update">Обновление</span>
+                    </div>
+                    <h3>Глобальное обновление сервера v2.5</h3>
+                    <p>
+                        Мы рады представить крупнейшее обновление нашего сервера! 
+                        Добавлены новые карты, улучшена система ролевой игры, 
+                        исправлены критические баги и добавлены новые возможности 
+                        для игроков. Полная история изменений доступна в теме.
+                    </p>
+                    <div class="announcement-footer">
+                        <a href="#" class="read-more">
+                            Читать далее <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="announcement-stats">
+                            <span><i class="far fa-eye"></i> 1,234</span>
+                            <span><i class="far fa-comment"></i> 89</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="announcement-card animate-in animate-delay-1">
+                    <div class="announcement-meta">
+                        <span class="announcement-date">
+                            <i class="far fa-calendar"></i>
+                            12 Января 2025
+                        </span>
+                        <span class="announcement-tag tag-news">Новость</span>
+                    </div>
+                    <h3>Набор в команду проекта открыт</h3>
+                    <p>
+                        Мы ищем талантливых людей для расширения нашей команды. 
+                        Открыты вакансии: модераторы, помощники, строители карт.
+                    </p>
+                    <div class="announcement-footer">
+                        <a href="#" class="read-more">
+                            Подробнее <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="announcement-stats">
+                            <span><i class="far fa-eye"></i> 856</span>
+                            <span><i class="far fa-comment"></i> 45</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="announcement-card animate-in animate-delay-2">
+                    <div class="announcement-meta">
+                        <span class="announcement-date">
+                            <i class="far fa-calendar"></i>
+                            10 Января 2025
+                        </span>
+                        <span class="announcement-tag tag-event">Событие</span>
+                    </div>
+                    <h3>Еженедельное ивент-мероприятие</h3>
+                    <p>
+                        В эту субботу состоится крупное ивент-мероприятие с ценными 
+                        призами для победителей. Не пропустите!
+                    </p>
+                    <div class="announcement-footer">
+                        <a href="#" class="read-more">
+                            Регистрация <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="announcement-stats">
+                            <span><i class="far fa-eye"></i> 2,103</span>
+                            <span><i class="far fa-comment"></i> 156</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-grid" id="forums">
+            <section class="forum-categories">
+                <div class="section-header">
+                    <h2><i class="fas fa-comments"></i> Разделы форума</h2>
+                    <a href="#" class="view-all-link">
+                        Все разделы <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="category-card animate-in">
+                    <div class="category-icon">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Обсуждение сервера</h3>
+                        <p>Общие темы, предложения и обсуждения игрового процесса</p>
+                        <div class="category-stats">
+                            <span><i class="fas fa-folder"></i> 156 тем</span>
+                            <span><i class="fas fa-comment"></i> 2,341 сообщений</span>
+                        </div>
+                    </div>
+                    <div class="category-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="category-card animate-in animate-delay-1">
+                    <div class="category-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Техническая поддержка</h3>
+                        <p>Помощь с подключением, баги и технические вопросы</p>
+                        <div class="category-stats">
+                            <span><i class="fas fa-folder"></i> 89 тем</span>
+                            <span><i class="fas fa-comment"></i> 1,205 сообщений</span>
+                        </div>
+                    </div>
+                    <div class="category-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="category-card animate-in animate-delay-2">
+                    <div class="category-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Истории персонажей</h3>
+                        <p>Ролевые истории, биографии и творчество участников</p>
+                        <div class="category-stats">
+                            <span><i class="fas fa-folder"></i> 234 тем</span>
+                            <span><i class="fas fa-comment"></i> 3,892 сообщений</span>
+                        </div>
+                    </div>
+                    <div class="category-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="category-card animate-in animate-delay-3">
+                    <div class="category-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Заявки и жалобы</h3>
+                        <p>Подача заявок на должности и жалоб на игроков</p>
+                        <div class="category-stats">
+                            <span><i class="fas fa-folder"></i> 67 тем</span>
+                            <span><i class="fas fa-comment"></i> 892 сообщений</span>
+                        </div>
+                    </div>
+                    <div class="category-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="category-card animate-in animate-delay-4">
+                    <div class="category-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Магазин и донат</h3>
+                        <p>Информация о привилегиях, покупках и акциях</p>
+                        <div class="category-stats">
+                            <span><i class="fas fa-folder"></i> 45 тем</span>
+                            <span><i class="fas fa-comment"></i> 567 сообщений</span>
+                        </div>
+                    </div>
+                    <div class="category-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="category-card animate-in animate-delay-4">
+                    <div class="category-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Кланы и организации</h3>
+                        <p>Создание и управление игровыми организациями</p>
+                        <div class="category-stats">
+                            <span><i class="fas fa-folder"></i> 78 тем</span>
+                            <span><i class="fas fa-comment"></i> 1,456 сообщений</span>
+                        </div>
+                    </div>
+                    <div class="category-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="sidebar-widget animate-in">
+                    <h3><i class="fas fa-users"></i> Онлайн игроки</h3>
+                    <div class="player-list">
+                        <div class="player-item">
+                            <div class="player-avatar" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">A</div>
+                            <div class="player-info">
+                                <div class="player-name">AlexGamer</div>
+                                <div class="player-status">
+                                    <span class="player-status-dot"></span>
+                                    В игре
+                                </div>
+                            </div>
+                        </div>
+                        <div class="player-item">
+                            <div class="player-avatar" style="background: linear-gradient(135deg, #3498db, #2980b9);">M</div>
+                            <div class="player-info">
+                                <div class="player-name">MaxPower</div>
+                                <div class="player-status">
+                                    <span class="player-status-dot"></span>
+                                    В игре
+                                </div>
+                            </div>
+                        </div>
+                        <div class="player-item">
+                            <div class="player-avatar" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">D</div>
+                            <div class="player-info">
+                                <div class="player-name">DarkWolf</div>
+                                <div class="player-status">
+                                    <span class="player-status-dot"></span>
+                                    В игре
+                                </div>
+                            </div>
+                        </div>
+                        <div class="player-item">
+                            <div class="player-avatar" style="background: linear-gradient(135deg, #f39c12, #e67e22);">S</div>
+                            <div class="player-info">
+                                <div class="player-name">Shadow92</div>
+                                <div class="player-status">
+                                    <span class="player-status-dot"></span>
+                                    В игре
+                                </div>
+                            </div>
+                        </div>
+                        <div class="player-item">
+                            <div class="player-avatar" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">K</div>
+                            <div class="player-info">
+                                <div class="player-name">KillerX</div>
+                                <div class="player-status">
+                                    <span class="player-status-dot"></span>
+                                    В игре
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="view-all">
+                        Все игроки <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="sidebar-widget animate-in animate-delay-1">
+                    <h3><i class="fas fa-chart-bar"></i> Статистика</h3>
+                    <div class="stat-grid">
+                        <div class="stat-box">
+                            <div class="stat-box-icon"><i class="fas fa-users"></i></div>
+                            <div class="stat-box-value">1,847</div>
+                            <div class="stat-box-label">Пользователей</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-box-icon"><i class="fas fa-folder"></i></div>
+                            <div class="stat-box-value">546</div>
+                            <div class="stat-box-label">Тем</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-box-icon"><i class="fas fa-comment"></i></div>
+                            <div class="stat-box-value">8,330</div>
+                            <div class="stat-box-label">Сообщений</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-box-icon"><i class="fas fa-calendar"></i></div>
+                            <div class="stat-box-value">2021</div>
+                            <div class="stat-box-label">Год создания</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget discord-widget animate-in animate-delay-2">
+                    <h3><i class="fab fa-discord"></i> Discord</h3>
+                    <div class="discord-server-info">
+                        <div class="discord-server-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="discord-server-name">Eternis Project</div>
+                        <div class="discord-online-count">
+                            <i class="fas fa-circle" style="color: #10b981; font-size: 8px;"></i>
+                            1,234 онлайн
+                        </div>
+                        <button class="discord-btn" onclick="showToast('info', 'Ссылка скопирована в буфер обмена!')">
+                            <i class="fab fa-discord"></i>
+                            Присоединиться
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget animate-in animate-delay-3">
+                    <h3><i class="fas fa-clock"></i> Последние темы</h3>
+                    <div class="recent-topic">
+                        <span class="topic-title">Правила сервера 2025</span>
+                        <div class="topic-meta">
+                            <i class="fas fa-user"></i> Admin • 2ч назад
+                        </div>
+                    </div>
+                    <div class="recent-topic">
+                        <span class="topic-title">Ищем команду для рейда</span>
+                        <div class="topic-meta">
+                            <i class="fas fa-user"></i> MaxPower • 5ч назад
+                        </div>
+                    </div>
+                    <div class="recent-topic">
+                        <span class="topic-title">Баг на карте rp_downtown</span>
+                        <div class="topic-meta">
+                            <i class="fas fa-user"></i> DarkWolf • 1д назад
+                        </div>
+                    </div>
+                    <div class="recent-topic">
+                        <span class="topic-title">Предложения по улучшению</span>
+                        <div class="topic-meta">
+                            <i class="fas fa-user"></i> Shadow92 • 2д назад
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <section class="servers-section" id="servers">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-server"></i> Наши серверы</h2>
+                <a href="#" class="view-all-link">
+                    Все серверы <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="servers-grid">
+                <div class="server-card online animate-in">
+                    <div class="server-header">
+                        <div class="server-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div>
+                            <div class="server-name">Eternis RP #1</div>
+                            <span class="server-status-badge online">Онлайн</span>
+                        </div>
+                    </div>
+                    <div class="server-info">
+                        <div class="server-map">
+                            <i class="fas fa-map"></i>
+                            rp_downtown_v4r2
+                        </div>
+                        <div class="server-players">
+                            <div class="player-bar">
+                                <div class="player-bar-fill" style="width: 65%;"></div>
+                            </div>
+                            <span class="player-count-text">42/64</span>
+                        </div>
+                    </div>
+                    <div class="server-connect">
+                        <button class="btn btn-primary" onclick="showToast('success', 'IP скопирован!')">
+                            <i class="fas fa-copy"></i>
+                            Копировать IP
+                        </button>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-play"></i>
+                            Подключиться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="server-card online animate-in animate-delay-1">
+                    <div class="server-header">
+                        <div class="server-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div>
+                            <div class="server-name">Eternis RP #2</div>
+                            <span class="server-status-badge online">Онлайн</span>
+                        </div>
+                    </div>
+                    <div class="server-info">
+                        <div class="server-map">
+                            <i class="fas fa-map"></i>
+                            rp_bangcity
+                        </div>
+                        <div class="server-players">
+                            <div class="player-bar">
+                                <div class="player-bar-fill high" style="width: 85%;"></div>
+                            </div>
+                            <span class="player-count-text">55/64</span>
+                        </div>
+                    </div>
+                    <div class="server-connect">
+                        <button class="btn btn-primary" onclick="showToast('success', 'IP скопирован!')">
+                            <i class="fas fa-copy"></i>
+                            Копировать IP
+                        </button>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-play"></i>
+                            Подключиться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="server-card offline animate-in animate-delay-2">
+                    <div class="server-header">
+                        <div class="server-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div>
+                            <div class="server-name">Eternis Sandbox</div>
+                            <span class="server-status-badge offline">Оффлайн</span>
+                        </div>
+                    </div>
+                    <div class="server-info">
+                        <div class="server-map">
+                            <i class="fas fa-map"></i>
+                            gm_construct
+                        </div>
+                        <div class="server-players">
+                            <div class="player-bar">
+                                <div class="player-bar-fill" style="width: 0%;"></div>
+                            </div>
+                            <span class="player-count-text">0/64</span>
+                        </div>
+                    </div>
+                    <div class="server-connect">
+                        <button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
+                            <i class="fas fa-copy"></i>
+                            Копировать IP
+                        </button>
+                        <a href="#" class="btn btn-secondary" style="opacity: 0.5; cursor: not-allowed;">
+                            <i class="fas fa-play"></i>
+                            Подключиться
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-crown"></i> Команда проекта</h2>
+                <a href="#" class="view-all-link">
+                    Вся команда <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card animate-in">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <div class="team-name">AdminName</div>
+                    <div class="team-role">Основатель</div>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-card animate-in animate-delay-1">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="team-name">Moderator1</div>
+                    <div class="team-role">Главный администратор</div>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-card animate-in animate-delay-2">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                    <div class="team-name">Developer1</div>
+                    <div class="team-role">Разработчик</div>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-card animate-in animate-delay-3">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <div class="team-name">Builder1</div>
+                    <div class="team-role">Строитель карт</div>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-steam"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-question-circle"></i> Часто задаваемые вопросы</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item animate-in">
+                    <div class="faq-question">
+                        <h4>Как начать играть на сервере?</h4>
+                        <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Для начала игры вам необходимо установить Garry's Mod в Steam, 
+                            затем подключиться к нашему серверу через консоль (~) командой: 
+                            <code>connect IP_адрес_сервера</code>. Перед игрой обязательно 
+                            ознакомьтесь с правилами сервера в соответствующем разделе форума.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-in animate-delay-1">
+                    <div class="faq-question">
+                        <h4>Как получить привилегию на сервере?</h4>
+                        <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Привилегии можно приобрести в нашем магазине доната. 
+                            Перейдите в раздел "Магазин" на форуме или используйте 
+                            команду !donate в игре для открытия меню покупок.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-in animate-delay-2">
+                    <div class="faq-question">
+                        <h4>Как подать жалобу на игрока?</h4>
+                        <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Для подачи жалобы создайте тему в разделе "Заявки и жалобы". 
+                            Укажите ник нарушителя, приложите скриншоты или демо-запись 
+                            нарушения. Жалобы без доказательств не рассматриваются.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-in animate-delay-3">
+                    <div class="faq-question">
+                        <h4>Можно ли создать свою организацию?</h4>
+                        <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Да, вы можете создать свою организацию. Для этого подайте 
+                            заявку в разделе "Кланы и организации". Укажите название, 
+                            описание, требования к участникам и план развития.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-main">ETERNIS</span>
+                        <span class="logo-sub">PROJECT</span>
+                    </div>
+                    <p>
+                        Eternis Project — это сообщество игроков Garry's Mod, 
+                        объединённых любовью к качественному ролевому процессу. 
+                        Присоединяйтесь к нам и станьте частью нашей истории!
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" title="Discord"><i class="fab fa-discord"></i></a>
+                        <a href="#" title="VK"><i class="fab fa-vk"></i></a>
+                        <a href="#" title="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" title="Steam"><i class="fab fa-steam"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4><i class="fas fa-link"></i> Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Главная</a></li>
+                        <li><a href="#forums"><i class="fas fa-chevron-right"></i> Форум</a></li>
+                        <li><a href="#servers"><i class="fas fa-chevron-right"></i> Серверы</a></li>
+                        <li><a href="#team"><i class="fas fa-chevron-right"></i> Команда</a></li>
+                        <li><a href="#faq"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4><i class="fas fa-file-alt"></i> Документы</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Правила сервера</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Правила форума</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Политика конфиденциальности</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Пользовательское соглашение</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4><i class="fas fa-headset"></i> Поддержка</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Техническая поддержка</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Подать жалобу</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Предложения</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2021-2025 Eternis Project. Все права защищены.</p>
+                <div class="footer-legal">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast-container" id="toast-container"></div>
+    
+    <div class="modal-overlay" id="login-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Вход в аккаунт</h3>
+                <button class="modal-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Форма авторизации будет доступна после регистрации на форуме.</p>
+                <p style="margin-top: 16px;">
+                    <i class="fas fa-info-circle" style="color: var(--accent-blue-light);"></i>
+                    Для входа используйте аккаунт Steam или зарегистрируйтесь через форум.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="modal-cancel">Отмена</button>
+                <button class="btn btn-primary" onclick="showToast('info', 'Функция в разработке!')">
+                    <i class="fab fa-steam"></i>
+                    Войти через Steam
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
